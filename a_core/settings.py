@@ -30,7 +30,7 @@ ALLOWED_HOSTS = ["localhost", "127.0.0.1", "*"]
 CSRF_TRUSTED_ORIGINS = ["https://*"]
 
 BASE_URL = "localhost"
-PORT = ":8000"
+PORT = ":8001"
 
 # Production
 # BASE_URL = "your-domain.com"
@@ -124,7 +124,7 @@ DATABASES = {
         "USER": "postgres",
         "PASSWORD": "postgres",
         "HOST": "localhost",
-        "PORT": "5432",
+        "PORT": "5434",
     }
 }
 
